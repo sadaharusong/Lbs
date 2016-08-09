@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "background">#CCCCFF</color>
+    <color name = "normal">#FFFFCC</color>
+    <color name = "selt">#CCFFFF</color>
+    <color name = "night">#FFCCCC</color>
+    <color name = "search">#FFFAFA</color>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittext"
+            android:layout_gravity="center"
+            android:hint="客官，您要去哪里呀？"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            />
+        <ImageButton android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search"
+            android:id="@+id/search"
+            android:clickable="true"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        >
+          <LinearLayout android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+          
+            >
+            
+            <ImageButton 
+                 android:layout_width="45dp"
+                 android:layout_height="45dp"
+                 android:layout_gravity="left"
+                 android:clickable="true"
+                 android:src="@drawable/nosound"
+                 android:id="@+id/sound"
+                 />
+            </LinearLayout>
+        
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="right"
+            >
+            
+        <ImageButton
+            android:id="@+id/traffic"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:clickable="true"
+            android:src="@drawable/traffic" />
+
+        </LinearLayout>
+        
+      
+    </LinearLayout>
+
+
+
+<LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        >
+         <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+          
+            >
+        
+             
+             
+        <ImageButton 
+    	android:layout_width="45dp"
+    	android:layout_height="45dp"
+    	android:layout_gravity="right"
+    	android:gravity="right"
+    	android:clickable="true"
+    	android:src="@drawable/road"
+    	android:id="@+id/road"
+    	/>
+        </LinearLayout>
+    </LinearLayout>
+    
+<LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        >
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+          
+            >
+            <ImageButton
+    		android:layout_width="45dp"
+    		android:layout_height="45dp"
+	    	android:src="@drawable/share"
+	    	android:clickable="true"
+	    	android:id="@+id/share"
+	    	
+    	/>
+            
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+
+    
+</LinearLayout>
